@@ -26,7 +26,7 @@ public class Ejercicio1 {
         entrada.nextLine();
         System.out.print ("Ingrese su nombre: ");
         nombre = entrada.nextLine();
-        ////edad = entrada.nextInt();
+        //edad = entrada.nextInt();
         
         //muestro los datos
         System.out.printf("Su nombre es %s", nombre);

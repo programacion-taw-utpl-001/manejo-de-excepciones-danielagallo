@@ -11,6 +11,7 @@ package calificaciones;
  */
 public class Estudiante {
     
+    //Atributos de la clase Estudiante
     private String nombres;
     private String apellidos;
     
@@ -38,4 +39,8 @@ public class Estudiante {
     }
     
     //Sobreescribimos el método toString
+    @Override
+    public String toString() {
+        return String.format("%s %s", getNombre(),getApellido());
+    }
 }
